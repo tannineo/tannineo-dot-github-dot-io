@@ -1,0 +1,18 @@
+db.json
+
+*.log
+
+node_modules/
+
+public/
+
+.deploy*/
+
+# Lock files
+yarn.lock
+package-lock.json
+
+# OS files
+Thumbs.db
+.DS_Store
+Icon
