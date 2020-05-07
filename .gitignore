@@ -6,6 +6,7 @@ node_modules/
 
 public/
 
+# Deploy folders
 .deploy*/
 
 # Lock files
