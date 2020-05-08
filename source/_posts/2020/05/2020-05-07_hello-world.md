@@ -1,5 +1,13 @@
 ---
 title: Hello World
+date: 2020-05-07
+categories:
+  - misc
+tags:
+  - hello world
+top_image:
+top: false
+math: true
 ---
 Welcome to [Hexo](https://hexo.io/)! This is your very first post. Check [documentation](https://hexo.io/docs/) for more info. If you get any problems when using Hexo, you can find the answer in [troubleshooting](https://hexo.io/docs/troubleshooting.html) or you can ask me on [GitHub](https://github.com/hexojs/hexo/issues).
 
@@ -48,32 +56,28 @@ console.info(X)
 
 ## Math
 
-The dollar sign `$` does not work with `hexo-math` using `katex`.
-
-### Tags
+### Dollar Signs
 
 ```tex
-This inline equation {% math %}\cos 2\theta = \cos^2 \theta - \sin^2 \theta{% endmath %}.
+\cos 2\theta = \cos^2 \theta - \sin^2 \theta
 ```
 
-This inline equation {% math %}\cos 2\theta = \cos^2 \theta - \sin^2 \theta{% endmath %}.
+This inline equation $\cos 2\theta = \cos^2 \theta - \sin^2 \theta$.
 
 ```tex
-{% math %}
+\begin{aligned}
+  \dot{x} & = \sigma(y-x) \\
+  \dot{y} & = \rho x - y - xz \\
+  \dot{z} & = -\beta z + xy
+\end{aligned}
+```
+
+$$
   \begin{aligned}
     \dot{x} & = \sigma(y-x) \\
     \dot{y} & = \rho x - y - xz \\
     \dot{z} & = -\beta z + xy
   \end{aligned}
-{% endmath %}
-```
-
-{% math %}
-  \begin{aligned}
-    \dot{x} & = \sigma(y-x) \\
-    \dot{y} & = \rho x - y - xz \\
-    \dot{z} & = -\beta z + xy
-  \end{aligned}
-{% endmath %}
+$$
 
 ## Others

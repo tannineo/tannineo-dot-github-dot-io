@@ -15,7 +15,7 @@ timezone: Europe/Dublin
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://tannineo.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :year-:month-:day/:title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -32,7 +32,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
+new_post_name: :year/:month/:year-:month-:day_:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
 external_link:
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: stun
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -103,6 +103,25 @@ deploy:
   branch: master
   message: Site updated at {{ now('YYYY-MM-DD HH:mm:ss') }}
 
-math:
-  engine: 'katex'
-  css: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css
+# using stun theme
+# math:
+#   engine: "katex"
+#   css: https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.11.1/katex.min.css
+
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+
+sitemap:
+  path: sitemap.xml
+  template:
+  rel: false
+
+search:
+  path: search.json
+  field: post
+  content: true
