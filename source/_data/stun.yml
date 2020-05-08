@@ -76,10 +76,10 @@ menu_settings:
 # ---------------------------------------------------------------
 
 favicon:
-  small: /assets/favicon-16x16.png
-  medium: /assets/favicon-32x32.png
-  apple_touch_icon: /assets/favicon-180x180.png
-  msapplication: /assets/favicon-144x144.png
+  small: /assets/icons/icon-16x16.png
+  medium: /assets/icons/icon-32x32.png
+  apple_touch_icon: /assets/icons/icon-180x180.png
+  msapplication: /assets/icons/icon-144x144.png
   # ! --------------------------------------------------
   # ! If you don't know the following, please ignore it.
   # ! --------------------------------------------------
@@ -90,10 +90,11 @@ favicon:
 # Progressive Web Apps
 # See: https://github.com/lavas-project/hexo-pwa/
 pwa:
-  enable: false
+  enable: false # TODO
+  # manifest 文件的路径
   manifest: /manifest.json
-  # (Please use "" to wrap the value)
-  theme_color: '#4F726C'
+  # 浏览器导航栏的背景颜色（只在安装的 PWA 离线应用中生效）
+  theme_color: '#213333'
 
 # Night mode
 night_mode:
@@ -748,7 +749,7 @@ quicklink:
 # Pjax
 # See: https://github.com/MoOx/pjax/
 pjax:
-  enable: true
+  enable: false
   # When switching pages, scroll to the bottom of the top image.
   avoid_banner: false
   # ! --------------------------------------------------

@@ -38,7 +38,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: false
@@ -48,7 +48,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: false
-  tab_replace: ''
+  tab_replace: ""
   wrap: true
   hljs: false
 
@@ -57,7 +57,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -113,7 +113,7 @@ feed:
   path: atom.xml
   limit: 20
   content_limit: 140
-  content_limit_delim: ' '
+  content_limit_delim: " "
   order_by: -date
 
 sitemap:
@@ -125,3 +125,33 @@ search:
   path: search.json
   field: post
   content: true
+# TODO
+# pwa:
+#   manifest:
+#     # Manifest ??????
+#     path: /manifest.json
+#   serviceWorker:
+#     # Service Worker ???????
+#     path: /sw.js
+#     # ? xxx ???????????
+#     preload:
+#       urls:
+#         - /
+#       posts: 5
+#     # ??????????????https://googlechromelabs.github.io/sw-toolbox/api.html#options
+#     opts:
+#       # ????????????????????
+#       networkTimeoutSeconds: 3
+#     routes:
+#       # ??????????????? webp ????????????
+#       - pattern: !!js/regexp /.*\.(js|css|html|jpg|jpeg|png|svg|gif|json|xml|eot|ttf|woff|woff2)$/
+#         # ?????????cacheFirst, networkFirst, cacheOnly, networkOnly, fastest
+#         # ????????????https://googlechromelabs.github.io/sw-toolbox/api.html#handlers
+#         strategy: cacheFirst
+#       - pattern: !!js/regexp /\//
+#         strategy: networkFirst
+#       # ?????? CDN
+#       - pattern: !!js/regexp /cdn.jsdelivr.net/
+#         strategy: cacheFirst
+#   # Hexo ????????????????
+#   priority: 5
