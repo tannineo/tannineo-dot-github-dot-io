@@ -17,3 +17,6 @@ package-lock.json
 Thumbs.db
 .DS_Store
 Icon
+
+# ignore stun
+themes/*/.git
