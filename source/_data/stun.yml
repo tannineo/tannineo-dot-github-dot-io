@@ -94,7 +94,7 @@ pwa:
   # manifest 文件的路径
   manifest: /manifest.json
   # 浏览器导航栏的背景颜色（只在安装的 PWA 离线应用中生效）
-  theme_color: '#213333'
+  theme_color: "#213333"
 
 # Night mode
 night_mode:
@@ -102,9 +102,9 @@ night_mode:
   # The button of switching to the night mode.
   button:
     # Color of button (Please use "" to wrap the value).
-    color: '#fafafa'
+    color: "#fafafa"
     # Background color of button (Please use "" to wrap the value).
-    bg_color: '#8c8a8a'
+    bg_color: "#8c8a8a"
   # The icon that stand for day and night.
   icon:
     dark: ☾
@@ -156,7 +156,7 @@ header:
     # Height of the navigation bar (Supports all CSS units)
     height: 50px
     # Background color of the navigation bar (Please use "" to wrap the value).
-    bg_color: '#0B346E'
+    bg_color: "#0B346E"
   # The icon that prompts the user to pull down.
   scroll_down_icon:
     enable: false
@@ -218,7 +218,7 @@ footer:
     # Heartbeat animation.
     animation: false
     # (Please use "" to wrap the value)
-    color: '#ff0000'
+    color: "#ff0000"
   # Hexo link
   powered:
     enable: true
@@ -265,9 +265,9 @@ back2top:
     # Rotation Angle of icon.
     rotate: -45deg
     # (Please use "" to wrap the value)
-    color: '#49b1f5'
+    color: "#49b1f5"
     # Color when the mouse hovers it (Please use "" to wrap the value)
-    hover_color: '#fc6423'
+    hover_color: "#fc6423"
 
 # ---------------------------------------------------------------
 # Sidebar config
@@ -356,7 +356,7 @@ feed:
 reading_progress:
   enable: true
   # (Please use "" to wrap the value)
-  color: '#fc6423'
+  color: "#fc6423"
   height: 1px
 
 # ---------------------------------------------------------------
@@ -445,7 +445,7 @@ post_widget:
   share:
     enable: false
     # The text displayed before the share button.
-    label: 'Share to: '
+    label: "Share to: "
     # Optional values: qzone | qq | weibo | wechat | douban | linkedin | facebook | twitter | google
     target: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
 
@@ -462,7 +462,7 @@ stick_top:
   # Rotation Angle of icon.
   rotate: 45deg
   # (Please use "" to wrap the value)
-  color: '#999'
+  color: "#999"
 
 # ---------------------------------------------------------------
 # Comment config
@@ -471,15 +471,15 @@ stick_top:
 # Gittalk
 # See: https://github.com/gitalk/gitalk/
 gitalk:
-  enable: true
+  enable: false
   # Github username.
   owner: tannineo
   # Github repository.
   repo: tannineo.github.io
   # Github Application Client ID.
-  client_id: 4d2197a8d2e830144579
+  client_id:
   # Github Application Client Secret.
-  client_secret: 27ad40388f026868cfd0f4cb8cdbfa85333e5125
+  client_secret:
   # GitHub repo owner and collaborators, only these guys can initialize github issues.
   admin: tannineo
   # Facebook-like distraction free mode.
@@ -644,7 +644,7 @@ canvas_nest:
   enable: false
   # Color of lines.
   # RGB values, use `,` to separate.
-  color: '0,0,0'
+  color: "0,0,0"
   # The opacity of lines (value: 0 ~ 1)
   opacity: 0.6
   # The number of lines.
@@ -698,7 +698,7 @@ zoom_image:
   enable: true
   # The color of mask.
   # (Please use "" to wrap the value)
-  mask_color: 'rgba(0,0,0,0.6)'
+  mask_color: "rgba(0,0,0,0.6)"
   # The gap between image and a edge of screen when image is enlarged.
   # (Only `px` unit is supported)
   gap_aside: 20px
@@ -783,7 +783,7 @@ external_link:
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     name: fas fa-external-link-alt
     # (Please use "" to wrap the value)
-    color: '#aaa'
+    color: "#aaa"
 
 # The shortcuts of the site.
 shortcuts:
@@ -797,8 +797,8 @@ shortcuts:
 # If not used, comment it or ignore it.
 tag_cloud:
   # (Please use "" to wrap the value)
-  start_color: '#a4d8fa'
-  end_color: '#49b1f5'
+  start_color: "#a4d8fa"
+  end_color: "#49b1f5"
   # Size for tag.
   min_size: 16
   max_size: 26
