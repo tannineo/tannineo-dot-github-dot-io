@@ -19,7 +19,7 @@ math: false
 
 <!-- more -->
 
-如果是使用`node`尝试开发的同学一定会有所体会, `node_modules`的版本控制冗余(node_modules blackhole)但是有效, 配合`nvm`也能锁定`node`运行时的版本. 而在`python`下进行开发, 基于`virtualenv`的沙箱环境配合一个配置文件(`environment.yml`之于`conda`, `Pipfile`之于`pipenv`, 或者无沙箱的`requirements.txt`之于`pip`), 可以很好的组织项目而互不影响. 类似的, `go`的`module`模式(`go.mod`)在解决依赖问题. 管理`java`的`jdk`版本有`jenv`这个工具.
+如果是使用`node`尝试开发的同学一定会有所体会, `node_modules`的依赖版本控制冗余(node_modules blackhole)但是有效, 配合`nvm`也能锁定`node`运行时的版本. 而在`python`下进行开发, 基于`virtualenv`的沙箱环境配合一个配置文件(`environment.yml`之于`conda`, `Pipfile`之于`pipenv`, 或者无沙箱的`requirements.txt`之于`pip`), 可以很好的组织项目而互不影响. 类似的, `go`的`module`模式(`go.mod`)在解决依赖问题. 管理`java`的`jdk`版本有`jenv`这个工具.
 
 那么对于`perl`呢?
 
