@@ -27,6 +27,7 @@ math: false
 - [使用`perlbrew`管理`perl`版本](#使用perlbrew管理perl版本)
 - [使用`perlbrew`隔离项目依赖(沙箱)](#使用perlbrew隔离项目依赖沙箱)
 - [使用`carton`和`cpanfile`管理依赖](#使用carton和cpanfile管理依赖)
+- [总结](#总结)
 - [之后](#之后)
   - [调整项目结构](#调整项目结构)
   - [背后的原理](#背后的原理)
@@ -148,6 +149,13 @@ requires 'Dancer2', '0.300004';
 - `cpanm` (替代`cpan`)
 - `carmel` (实验性, 替代`carton`)
 
+## 总结
+
+1. `perlbrew`管理`perl`版本
+2. `perlbrew`创建沙箱(类似`conda`) ~~可选~~
+3. 编写`cpanfile`管理依赖版本, 使用`carton`安装到`./local/`并生成快照
+4. `use lib "$FindBin::Bin/../local/lib/perl5";` ~~可选~~
+
 ## 之后
 
 ### 调整项目结构
@@ -222,6 +230,7 @@ dance;
 大概率都是基于shell的环境变量更改.
 
 之后需要详细了解`perl`, 或者说`perl5`的一些基于环境变量的路径配置.
+
 
 ### OSX下Homebrew和`perlbrew`的兼容问题
 
