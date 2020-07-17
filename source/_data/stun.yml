@@ -371,7 +371,7 @@ codeblock:
   # Optional values: light | dark | ocean
   highlight: dark
   # Whether to wrap when code overflow.
-  word_wrap: true
+  word_wrap: false
 
 # Add a line below h1, h2 tags.
 heading_line: true
