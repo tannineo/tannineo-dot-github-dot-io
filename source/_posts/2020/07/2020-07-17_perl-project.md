@@ -231,7 +231,6 @@ dance;
 
 之后需要详细了解`perl`, 或者说`perl5`的一些基于环境变量的路径配置.
 
-
 ### OSX下Homebrew和`perlbrew`的兼容问题
 
 问题主要是Homebrew不会使用`perlbrew`所安装的`perl`, 若是完全交给Homebrew管理, 开发中也不会涉及Homebrew所安装的组件的话, 这个问题放置也没关系.
