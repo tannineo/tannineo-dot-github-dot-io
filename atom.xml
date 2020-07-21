@@ -66,11 +66,11 @@
     
       <category term="perl" scheme="http://tannineo.github.io/tags/perl/"/>
     
-      <category term="dependency" scheme="http://tannineo.github.io/tags/dependency/"/>
-    
       <category term="project" scheme="http://tannineo.github.io/tags/project/"/>
     
       <category term="tool" scheme="http://tannineo.github.io/tags/tool/"/>
+    
+      <category term="dependency" scheme="http://tannineo.github.io/tags/dependency/"/>
     
   </entry>
   
