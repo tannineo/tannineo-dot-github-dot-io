@@ -116,9 +116,9 @@ iperl notebook
 
 使用过程中只有`运行下一步`和`重启kernel`的功能是完全正常的(这个项目最后一次更新是2018年...). 大家在试用的时候可以注意`jupyter`的输出日志.
 
-![notebook](./20200720_perl-notebook_01.png)
+![notebook](./20200720_perl-notebook_01.jpg)
 
-![logs](./20200720_perl-notebook_02.png)
+![logs](./20200720_perl-notebook_02.jpg)
 
 但这些也足够满足我们的需求了, 我们能够执行基本的`perl`交互式编程了!
 
