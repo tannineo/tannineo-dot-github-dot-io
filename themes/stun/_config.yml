@@ -90,7 +90,7 @@ pwa:
   enable: false
   manifest: /manifest.json
   # (Please use "" to wrap the value)
-  theme_color: "#54bcff"
+  theme_color: '#54bcff'
 
 # Night mode
 night_mode:
@@ -98,9 +98,9 @@ night_mode:
   # The button of switching to the night mode.
   button:
     # Color of button (Please use "" to wrap the value).
-    color: "#fafafa"
+    color: '#fafafa'
     # Background color of button (Please use "" to wrap the value).
-    bg_color: "#8c8a8a"
+    bg_color: '#8c8a8a'
   # The icon that stand for day and night.
   icon:
     dark: 🌜
@@ -152,7 +152,7 @@ header:
     # Height of the navigation bar (Supports all CSS units)
     height: 50px
     # Background color of the navigation bar (Please use "" to wrap the value).
-    bg_color: "#333"
+    bg_color: '#333'
   # The icon that prompts the user to pull down.
   scroll_down_icon:
     enable: false
@@ -214,7 +214,7 @@ footer:
     # Heartbeat animation.
     animation: false
     # (Please use "" to wrap the value)
-    color: "#ff0000"
+    color: '#ff0000'
   # Hexo link
   powered:
     enable: true
@@ -261,9 +261,9 @@ back2top:
     # Rotation Angle of icon.
     rotate: -45deg
     # (Please use "" to wrap the value)
-    color: "#49b1f5"
+    color: '#49b1f5'
     # Color when the mouse hovers it (Please use "" to wrap the value)
-    hover_color: "#fc6423"
+    hover_color: '#fc6423'
 
 # ---------------------------------------------------------------
 # Sidebar config
@@ -272,7 +272,7 @@ back2top:
 # The sidebar of site.
 sidebar:
   enable: true
-  # Optional value: left | right
+  # Optional values: left | right
   position: right
   # The distance from the top of the page when the sidebar is fixed (Only `px` unit is supported)
   offsetTop: 20px
@@ -292,7 +292,7 @@ author:
     # Opacity of avatar (value: 0 ~ 1)
     opacity: 1
     # Mouse hover animation
-    # Optional value: turn | shake
+    # Optional values: turn | shake
     animation: turn
   # Your favorite motto.
   motto: hello world
@@ -350,7 +350,7 @@ feed:
 reading_progress:
   enable: true
   # (Please use "" to wrap the value)
-  color: "#fc6423"
+  color: '#fc6423'
   height: 1px
 
 # ---------------------------------------------------------------
@@ -439,7 +439,7 @@ post_widget:
   share:
     enable: false
     # The text displayed before the share button.
-    label: "Share to: "
+    label: 'Share to: '
     # Optional values: qzone | qq | weibo | wechat | douban | linkedin | facebook | twitter | google
     target: qzone, qq, weibo, wechat, douban, linkedin, facebook, twitter, google
 
@@ -450,12 +450,12 @@ stick_top:
   # Position of icon
   # Optional values: left | right
   position: right
-    # Icon name in FontAwesome, see: https://fontawesome.com/icons
+  # Icon name in FontAwesome, see: https://fontawesome.com/icons
   icon: fas fa-thumbtack
   # Rotation Angle of icon.
   rotate: 45deg
   # (Please use "" to wrap the value)
-  color: "#999"
+  color: '#999'
 
 # ---------------------------------------------------------------
 # Comment config
@@ -521,7 +521,7 @@ minivaline:
   md: true # Support Markdown.
   # MiniValine's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
-  # Available values: en  | zh-CN | (and many more)
+  # Optional values: en  | zh-CN | (and many more)
   # More i18n info: https://github.com/MiniValine/minivaline-i18n
   lang:
 
@@ -637,7 +637,7 @@ canvas_nest:
   enable: false
   # Color of lines.
   # RGB values, use `,` to separate.
-  color: "0,0,0"
+  color: '0,0,0'
   # The opacity of lines (value: 0 ~ 1)
   opacity: 0.6
   # The number of lines.
@@ -650,30 +650,25 @@ canvas_nest:
 # ---------------------------------------------------------------
 math:
   enable: false
-
-  # Only the page which has `math: true` in Front-matter will render.
-  # If true, it will load mathjax / katex srcipt EVERY PAGE.
+  # If true, this function will be enabled on every page.
+  # If false, this function will be enabled only if the page where `math: true` is set in `Front-matter`.
   per_page: false
-
-  # value: mathjax / katex (suggest: katex)
+  # ! -------------------------------------------------------------------------------
+  # ! Please see the documentation before using. See:
+  # ! https://liuyib.github.io/hexo-theme-stun/zh-CN/advanced/third-part.html#mathjax
+  # ! -------------------------------------------------------------------------------
+  # Optional values: mathjax | katex
   engine: katex
-
-  # See: https://github.com/mathjax/MathJax/
-  # hexo-renderer-kramed (or hexo-renderer-markdown-it-plus or hexo-renderer-pandoc) needed to full MathJax support.
   mathjax:
     cdn: https://cdn.jsdelivr.net/npm/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML
-
     # See: https://mhchem.github.io/MathJax-mhchem/
     mhchem:
       enable: false
       mhchem_js: https://cdn.jsdelivr.net/npm/mathjax-mhchem@3.3.2/mhchem.min.js
-
-  # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) needed to full Katex support.
   katex:
     cdn: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css
-
+    # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
     copy_tex:
-      # See: https://github.com/KaTeX/KaTeX/tree/master/contrib/copy-tex
       enable: true
       copy_tex_js: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.min.js
       copy_tex_css: https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/copy-tex.css
@@ -686,12 +681,12 @@ math:
 # See: https://fancyapps.com/fancybox/3/
 fancybox: false
 
-# Whether to enlarge the image when clicked.
+# Click to enlarge picture.
 zoom_image:
   enable: true
   # The color of mask.
   # (Please use "" to wrap the value)
-  mask_color: "rgba(0,0,0,0.6)"
+  mask_color: 'rgba(0,0,0,0.6)'
   # The gap between image and a edge of screen when image is enlarged.
   # (Only `px` unit is supported)
   gap_aside: 20px
@@ -776,7 +771,7 @@ external_link:
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     name: fas fa-external-link-alt
     # (Please use "" to wrap the value)
-    color: "#aaa"
+    color: '#aaa'
 
 # The shortcuts of the site.
 shortcuts:
@@ -790,8 +785,8 @@ shortcuts:
 # If not used, comment it or ignore it.
 tag_cloud:
   # (Please use "" to wrap the value)
-  start_color: "#a4d8fa"
-  end_color: "#49b1f5"
+  start_color: '#a4d8fa'
+  end_color: '#49b1f5'
   # Size for tag.
   min_size: 16
   max_size: 26
