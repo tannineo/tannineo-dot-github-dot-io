@@ -4,43 +4,103 @@
   <url>
     <loc>http://tannineo.github.io/2020-07-20/perl-notebook/</loc>
     
-    <lastmod>2020-07-20T20:37:12.024Z</lastmod>
+    <lastmod>2020-07-20</lastmod>
     
   </url>
   
   <url>
     <loc>http://tannineo.github.io/2020-07-17/perl-project/</loc>
     
-    <lastmod>2020-07-20T20:02:11.894Z</lastmod>
+    <lastmod>2020-07-20</lastmod>
     
   </url>
   
   <url>
     <loc>http://tannineo.github.io/2020-05-07/hello-world/</loc>
     
-    <lastmod>2020-05-08T21:48:49.222Z</lastmod>
+    <lastmod>2020-05-08</lastmod>
     
   </url>
   
   <url>
     <loc>http://tannineo.github.io/about/index.html</loc>
     
-    <lastmod>2020-05-08T20:16:33.258Z</lastmod>
+    <lastmod>2020-05-08</lastmod>
     
   </url>
   
   <url>
     <loc>http://tannineo.github.io/tags/index.html</loc>
     
-    <lastmod>2020-05-08T19:21:47.060Z</lastmod>
+    <lastmod>2020-05-08</lastmod>
     
   </url>
   
   <url>
     <loc>http://tannineo.github.io/categories/index.html</loc>
     
-    <lastmod>2020-05-08T19:21:32.597Z</lastmod>
+    <lastmod>2020-05-08</lastmod>
     
+  </url>
+  
+
+  <url>
+    <loc>http://tannineo.github.io/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>http://tannineo.github.io/tags/perl/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://tannineo.github.io/tags/project/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://tannineo.github.io/tags/tool/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://tannineo.github.io/tags/hello-world/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://tannineo.github.io/tags/dependency/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>http://tannineo.github.io/categories/programming/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://tannineo.github.io/categories/misc/</loc>
+    <lastmod>2020-09-10</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
   </url>
   
 </urlset>
